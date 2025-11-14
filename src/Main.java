@@ -1,3 +1,12 @@
+import model.Car;
+import model.Motorcycle;
+import model.Truck;
+import model.Vehicle;
+import visitor.BillVisitor;
+import visitor.RepairVisitor;
+import visitor.TestVisitor;
+import visitor.VehicleVisitor;
+
 public class Main {
     public static void main(String[] args) {
         Vehicle car = new Car();

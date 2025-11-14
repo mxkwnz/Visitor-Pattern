@@ -1,3 +1,9 @@
+package visitor;
+
+import model.Car;
+import model.Motorcycle;
+import model.Truck;
+
 public class TestVisitor implements VehicleVisitor{
     @Override
     public void visit(Car car){
